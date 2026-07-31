@@ -46,6 +46,12 @@ h1{
 
 h2{
     color:#58a6ff;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:18px;
+    border-bottom:2px solid rgba(88,166,255,0.35);
+    padding-bottom:8px;
+    letter-spacing:0.5px;
 }
 
 section{
@@ -59,8 +65,14 @@ section{
     padding:20px;
     border-radius:12px;
     margin:20px 0;
+    
+    transition: all 0.3s ease;
+    cursor: default;
 }
-
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,123,255,0.25);
+}
 a{
     color:#58a6ff;
     text-decoration:none;
@@ -71,16 +83,26 @@ footer{
     color:gray;
 }
     nav {
-    background: #161b22;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(22,27,34,0.95);
+    backdrop-filter: blur(10px);
+
     padding: 15px;
     text-align: center;
-}
 
-nav a {
+    border-bottom: 1px solid rgba(88,166,255,0.15);
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+    nav a {
     color: white;
     text-decoration: none;
     margin: 0 18px;
-    font-weight: bold;
+    font-weight: 600;
+    transition: color .25s ease;
 }
 
 nav a:hover {
@@ -149,6 +171,15 @@ nav a:hover {
 .project-item p{
     margin:8px 0;
 }
+    .card ul{
+    padding-left:22px;
+    margin-top:12px;
+}
+
+.card ul li{
+    margin-bottom:10px;
+    line-height:1.6;
+}
     /* Mobile Responsive */
 
 @media (max-width:768px){
@@ -204,11 +235,13 @@ nav a{
 <h1>Rakibul Karim</h1>
 
 <p>
-B.Sc. Student in Materials & Metallurgical Engineering (CUET)
+B.Sc. Student in Materials & Metallurgical Engineering<br>
+Chittagong University of Engineering & Technology (CUET), Bangladesh
 </p>
 
 <p>
-Aspiring Computational Materials Scientific Researcher | DFT & Materials Informatics
+Aspiring Researcher in Computational Materials Science<br>
+Density Functional Theory (DFT) • Materials Informatics
 </p>
     <div class="social-icons">
 
@@ -216,20 +249,20 @@ Aspiring Computational Materials Scientific Researcher | DFT & Materials Informa
 <i class="fab fa-github"></i>
 </a>
 
-<a href="https://www.linkedin.com/in/rakibul-karim/" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-
 <a href="https://orcid.org/0009-0000-7002-8197" target="_blank">
 <i class="fab fa-orcid"></i>
 </a>
-
+        
+<a href="https://scholar.google.com/citations?hl=en&user=5YrRxnUAAAAJ&view_op=list_works&gmla=AO4B3ju16TcxaEu_8iBRLbjavcT0KB0QSAWFmgkS2iiBwAU6gvm5myOCuHaXRVco02cKUE9zW0rtvBA5jwE22gRp" target="_blank">
+<i class="fas fa-graduation-cap"></i>
+</a>
+        
 <a href="https://www.researchgate.net/profile/Rakibul-Karim" target="_blank">
 <i class="fab fa-researchgate"></i>
 </a>
 
-<a href="https://scholar.google.com/citations?hl=en&user=5YrRxnUAAAAJ&view_op=list_works&gmla=AO4B3ju16TcxaEu_8iBRLbjavcT0KB0QSAWFmgkS2iiBwAU6gvm5myOCuHaXRVco02cKUE9zW0rtvBA5jwE22gRp" target="_blank">
-<i class="fas fa-graduation-cap"></i>
+<a href="https://www.linkedin.com/in/rakibul-karim/" target="_blank">
+<i class="fab fa-linkedin"></i>
 </a>
 
 </div>
