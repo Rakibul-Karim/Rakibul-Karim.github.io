@@ -4,8 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rakibul Karim</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <style>
+    html {
+    scroll-behavior: smooth;
+}
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -80,6 +83,32 @@ nav a:hover {
 .cv-button:hover {
     background: #218838;
 }
+    .badge{
+    display:inline-block;
+    background:#1f6feb;
+    color:white;
+    padding:8px 14px;
+    margin:6px;
+    border-radius:20px;
+    font-size:15px;
+    font-weight:bold;
+}
+    .badge{
+    display:inline-block;
+    background:#1f6feb;
+    color:white;
+    padding:8px 14px;
+    margin:6px;
+    border-radius:20px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.badge:hover{
+    background:#0056b3;
+    transform:translateY(-2px);
+    transition:0.3s;
+}
 </style>
 
 </head>
@@ -94,33 +123,65 @@ nav a:hover {
 <header>
     <img src="IMG-20260723-WA0028.jpg" alt="Rakibul Karim" style="width:180px;height:180px;border-radius:50%;border:5px solid #58a6ff;object-fit:cover;">
 <h1>Rakibul Karim</h1>
-<p>B.Sc. Student | Materials & Metallurgical Engineering | CUET</p>
+
+<p>
+B.Sc. Student in Materials & Metallurgical Engineering (CUET)
+</p>
+
+<p>
+Aspiring Computational Materials Scientific Researcher | DFT & Materials Informatics
+</p>
+    <div class="social-icons">
+
+<a href="https://github.com/Rakibul-Karim" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/rakibul-karim/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://orcid.org/0009-0000-7002-8197" target="_blank">
+<i class="fab fa-orcid"></i>
+</a>
+
+<a href="https://www.researchgate.net/profile/Rakibul-Karim" target="_blank">
+<i class="fab fa-researchgate"></i>
+</a>
+
+<a href="https://scholar.google.com/citations?hl=en&user=5YrRxnUAAAAJ&view_op=list_works&gmla=AO4B3ju16TcxaEu_8iBRLbjavcT0KB0QSAWFmgkS2iiBwAU6gvm5myOCuHaXRVco02cKUE9zW0rtvBA5jwE22gRp" target="_blank">
+<i class="fas fa-graduation-cap"></i>
+</a>
+
+</div>
 </header>
 
 <section>
 
-<div class="card">
+<div class="card" id="about">
 <h2>About Me</h2>
 
 <p>
 I am an undergraduate student in the Department of Materials and Metallurgical Engineering at CUET. My research interests include Materials Science, Computational Materials Science, Density Functional Theory (DFT), and Artificial Intelligence for Materials Research.
 </p>
-    <a href="Academic%20CV.pdf" target="_blank" class="cv-button">
+    <a href="Academic%20CV.pdf" class="cv-button" id="cv" target="_blank">
     📄 Download Academic CV
 </a>
 
 </div>
 
-<div class="card">
+<div class="card" id="research">
 
 <h2>Research Interests</h2>
+<div class="badge">Computational Materials Science</div>
 
-<ul style="text-align:left;">
-<li>Materials Science</li>
-<li>Computational Materials Science</li>
-<li>Density Functional Theory (DFT)</li>
-<li>Artificial Intelligence for Materials Research</li>
-</ul>
+<div class="badge">Density Functional Theory (DFT)</div>
+
+<div class="badge">Materials Informatics</div>
+
+<div class="badge">Materials Characterization</div>
+
+<div class="badge">Physical Metallurgy</div>
 
 </div>
 
@@ -178,21 +239,71 @@ I am an undergraduate student in the Department of Materials and Metallurgical E
         <li>Future Computational Materials Science Projects</li>
     </ul>
 </div>
+    <div class="card">
+    <h2>Publications</h2>
 
-<h2>Connect With Me</h2>
+    <p style="text-align:left;">
+        No publications yet.<br>
+        Research articles and conference papers will be added here in the future.
+    </p>
+</div>
+    <div class="card">
+    <h2>Academic Goals</h2>
 
-<p>
-<a href="https://www.linkedin.com/in/rakibul-karim" target="_blank">LinkedIn</a>
-</p>
+    <ul style="text-align:left;">
+        <li>Pursue an MSc with full scholarship.</li>
+        <li>Conduct research in Computational Materials Science.</li>
+        <li>Specialize in Density Functional Theory (DFT).</li>
+        <li>Publish research in international journals.</li>
+        <li>Pursue a PhD in Materials Science.</li>
+    </ul>
+</div>
+    <div class="card">
+    <h2>Languages</h2>
 
-<p>
-<a href="https://orcid.org/0009-0000-7002-8197" target="_blank">ORCID</a>
-</p>
+    <ul style="text-align:left;">
+        <li>Bangla (Native)</li>
+        <li>English (Professional Working Proficiency)</li>
+    </ul>
+</div>
+    <div class="card">
 
-<p>
-<a href="https://www.researchgate.net/profile/Rakibul-Karim" target="_blank">ResearchGate</a>
-</p>
+<h2>Achievements & Awards</h2>
 
+<ul style="text-align:left;">
+<li>Achievements will be updated as academic milestones are completed.</li>
+
+</ul>
+
+</div>
+    <div class="card" id="contact">
+<h2>Contact</h2>
+
+<ul style="text-align:left;">
+
+<li><strong>Email:</strong> rakibul.karim.mse@gmail.com</li>
+
+<li><strong>LinkedIn:</strong>
+<a href="https://www.linkedin.com/in/rakibul-karim" target="_blank">Profile</a>
+</li>
+
+<li><strong>ORCID:</strong>
+<a href="https://orcid.org/0009-0000-7602-3197" target="_blank">ORCID Profile</a>
+</li>
+
+<li><strong>ResearchGate:</strong>
+<a href="https://www.researchgate.net/profile/Rakibul-Karim" target="_blank">Research Profile</a>
+</li>
+
+<li><strong>GitHub:</strong>
+<a href="https://github.com/Rakibul-Karim" target="_blank">GitHub Profile</a>
+</li>
+
+<li><strong>Google Scholar:</strong>
+<a href="https://scholar.google.com/citations?hl=en&user=5YrRxnUAAAAJ&view_op=list_works&gmla=AO4B3ju16TcxaEu_8iBRLbjavcT0KB0QSAWFmgkS2iiBwAU6gvm5myOCuHaXRVco02cKUE9zW0rtvBA5jwE22gRp" target="_blank">Google Scholar Profile</a>
+</li>
+
+</ul>
 </div>
 
 </section>
